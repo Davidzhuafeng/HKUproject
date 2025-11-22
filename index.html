@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroRNA Research Citations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a6491);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .citation {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 0 5px 5px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .citation:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .citation-title {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .citation-authors {
+            color: #555;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        .citation-journal {
+            color: #2c3e50;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        
+        .citation-doi {
+            margin-top: 10px;
+        }
+        
+        .citation-doi a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .citation-doi a:hover {
+            text-decoration: underline;
+        }
+        
+        .citation-year {
+            background: #3498db;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            header {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .citation {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BIOC3601 group 5</h1>
+            <p class="subtitle">group project reference list</p>
+        </header>
+        
+        <div class="content">
+            <div class="citation">
+                <span class="citation-year">2005</span>
+                <h3 class="citation-title">Silencing of microRNAs in vivo with 'antagomirs'</h3>
+                <p class="citation-authors">Krützfeldt, J., Rajewsky, N., Braich, R., Rajeev, K. G., Tuschl, T., Manoharan, M., & Stoffel, M.</p>
+                <p class="citation-journal">Nature, 438(7068), 685–689</p>
+                <div class="citation-doi">
+                    <a href="https://doi.org/10.1038/nature04303" target="_blank">https://doi.org/10.1038/nature04303</a>
+                </div>
+            </div>
+            
+            <div class="citation">
+                <span class="citation-year">2011</span>
+                <h3 class="citation-title">Antagonism of miR-33 in mice promotes reverse cholesterol transport and regression of atherosclerosis</h3>
+                <p class="citation-authors">Rayner, K. J., Sheedy, F. J., Esau, C. C., Hussain, F. N., Temel, R. E., Parathath, S., van Gils, J. M., Rayner, A. J., Chang, A. N., Suarez, Y., Fernandez-Hernando, C., Fisher, E. A., & Moore, K. J.</p>
+                <p class="citation-journal">The Journal of Clinical Investigation, 121(7), 2921–2931</p>
+                <div class="citation-doi">
+                    <a href="https://doi.org/10.1172/JCI57275" target="_blank">https://doi.org/10.1172/JCI57275</a>
+                </div>
+            </div>
+            
+            <div class="citation">
+                <span class="citation-year">2014</span>
+                <h3 class="citation-title">Regulation of microRNA biogenesis</h3>
+                <p class="citation-authors">Ha, M., & Kim, V. N.</p>
+                <p class="citation-journal">Nature Reviews Molecular Cell Biology, 15(8), 509-524</p>
+                <div class="citation-doi">
+                    <a href="https://doi.org/10.1038/nrm3838" target="_blank">https://doi.org/10.1038/nrm3838</a>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>MicroRNA Research Citations &copy; 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
