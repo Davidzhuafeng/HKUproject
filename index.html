@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MicroRNA Research Citations</title>
+    <title>BIOC3601 group 5 Reference list</title>
     <style>
         * {
             margin: 0;
@@ -20,11 +20,11 @@
         }
         
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
             background: white;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             overflow: hidden;
         }
         
@@ -55,19 +55,26 @@
             padding: 20px;
             margin-bottom: 25px;
             border-radius: 0 5px 5px 0;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
-        .citation:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        .citation-number {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            font-weight: bold;
         }
         
         .citation-title {
             color: #2c3e50;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             margin-bottom: 10px;
-            font-weight: 600;
+            display: inline;
         }
         
         .citation-authors {
@@ -97,7 +104,7 @@
         }
         
         .citation-year {
-            background: #3498db;
+            background: #e74c3c;
             color: white;
             padding: 3px 10px;
             border-radius: 20px;
@@ -112,6 +119,29 @@
             background: #2c3e50;
             color: white;
             font-size: 0.9rem;
+        }
+        
+        .qr-section {
+            text-align: center;
+            background: #f8f9fa;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 2px dashed #3498db;
+        }
+        
+        .qr-code {
+            width: 150px;
+            height: 150px;
+            background: white;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            color: #777;
         }
         
         @media (max-width: 600px) {
@@ -140,23 +170,57 @@
 <body>
     <div class="container">
         <header>
-            <h1>BIOC3601 group 5</h1>
-            <p class="subtitle">group project reference list</p>
+            <h1>Lipid Metabolism & MicroRNA Research</h1>
+            <p class="subtitle">Key Publications in the Field</p>
         </header>
         
         <div class="content">
             <div class="citation">
+                <span class="citation-year">2002</span>
+                <span class="citation-number">1</span>
+                <h3 class="citation-title">Free Cholesterol Bioavailability and Atherosclerosis</h3>
+                <p class="citation-authors">Abe, R. J., Abe, J., Nguyen, M. T. H., Olmsted-Davis, E., Mamun, A., Banerjee, P., Cooke, J. P., Fang, L., Pownall, H., Le, N.</p>
+                <p class="citation-journal">Current Atherosclerosis Reports, 24, 323-336</p>
+            </div>
+            
+            <div class="citation">
                 <span class="citation-year">2005</span>
+                <span class="citation-number">2</span>
                 <h3 class="citation-title">Silencing of microRNAs in vivo with 'antagomirs'</h3>
-                <p class="citation-authors">Krützfeldt, J., Rajewsky, N., Braich, R., Rajeev, K. G., Tuschl, T., Manoharan, M., & Stoffel, M.</p>
-                <p class="citation-journal">Nature, 438(7068), 685–689</p>
+                <p class="citation-authors">Krützfeldt, J., Rajewsky, N., Braich, R., Rajeev, K. G., Tuschl, T., Manoharan, M., Stoffel, M.</p>
+                <p class="citation-journal">Nature, 438(04303), 685-689</p>
+            </div>
+            
+            <div class="citation">
+                <span class="citation-year">2006</span>
+                <span class="citation-number">3</span>
+                <h3 class="citation-title">miR-122 regulation of lipid metabolism revealed by in vivo antisense targeting</h3>
+                <p class="citation-authors">Esau, C., Davis, S., Murray, S. F., Yu, X. X., Pandey, S. K., Pear, M., Watts, L., Booten, S. L., Graham, M., McKay, R., Subramaniam, A., Propp, S., Lollo, B. A., Freier, S., Bennett, C. F., Bhanot, S., & Monia, B. P.</p>
+                <p class="citation-journal">Cell Metabolism, 3(2), 87–98</p>
                 <div class="citation-doi">
-                    <a href="https://doi.org/10.1038/nature04303" target="_blank">https://doi.org/10.1038/nature04303</a>
+                    <a href="https://doi.org/10.1016/j.cmet.2006.01.005" target="_blank">https://doi.org/10.1016/j.cmet.2006.01.005</a>
                 </div>
             </div>
             
             <div class="citation">
+                <span class="citation-year">2009</span>
+                <span class="citation-number">4</span>
+                <h3 class="citation-title">Biogenesis of small RNAs in animals</h3>
+                <p class="citation-authors">Kim, V. N., Han, J., Siomi, M.</p>
+                <p class="citation-journal">Nature Reviews Molecular Cell Biology, 10, 126-139</p>
+            </div>
+            
+            <div class="citation">
+                <span class="citation-year">2010</span>
+                <span class="citation-number">5</span>
+                <h3 class="citation-title">MicroRNA-33 and the SREBP Host Genes Cooperate to Control Cholesterol Homeostasis</h3>
+                <p class="citation-authors">Najafi-Shoushtari, S. H., Kristo, F., Li, Y., Shioda, T., Cohen, D. E., Gerszten, R. E., Näär, A. M.</p>
+                <p class="citation-journal">Science, 328, 1566-1569</p>
+            </div>
+            
+            <div class="citation">
                 <span class="citation-year">2011</span>
+                <span class="citation-number">6</span>
                 <h3 class="citation-title">Antagonism of miR-33 in mice promotes reverse cholesterol transport and regression of atherosclerosis</h3>
                 <p class="citation-authors">Rayner, K. J., Sheedy, F. J., Esau, C. C., Hussain, F. N., Temel, R. E., Parathath, S., van Gils, J. M., Rayner, A. J., Chang, A. N., Suarez, Y., Fernandez-Hernando, C., Fisher, E. A., & Moore, K. J.</p>
                 <p class="citation-journal">The Journal of Clinical Investigation, 121(7), 2921–2931</p>
@@ -167,17 +231,39 @@
             
             <div class="citation">
                 <span class="citation-year">2014</span>
+                <span class="citation-number">7</span>
                 <h3 class="citation-title">Regulation of microRNA biogenesis</h3>
                 <p class="citation-authors">Ha, M., & Kim, V. N.</p>
                 <p class="citation-journal">Nature Reviews Molecular Cell Biology, 15(8), 509-524</p>
-                <div class="citation-doi">
-                    <a href="https://doi.org/10.1038/nrm3838" target="_blank">https://doi.org/10.1038/nrm3838</a>
-                </div>
             </div>
-        </div>
+            
+            <div class="citation">
+                <span class="citation-year">2017</span>
+                <span class="citation-number">8</span>
+                <h3 class="citation-title">Gastroenterology</h3>
+                <p class="citation-authors">Chai, C., Rivkin, M., Berkovits, L., Simerzin, A., Zorde-Khvalevsky, E., Rosenberg, N., Klein, S., Yaish, D., Durst, R., Shpitzen, S., Udi, S., Tam, J., Heeren, J., Worthmann, A., Schramm, C., Kluwe, J., Ravid R., Hornstein, E., Giladi, H., Galun E.</p>
+                <p class="citation-journal">Gastroenterology, 153, 1404-1415</p>
+            </div>
+            
+            <div class="citation">
+                <span class="citation-year">2021</span>
+                <span class="citation-number">9</span>
+                <h3 class="citation-title">Circulating microRNA-126 &122 in patients with coronary artery disease: Correlation with small dense LDL</h3>
+                <p class="citation-authors">Mishra, S., Rizvi, A., Pradhan, A., Perrone, M. A., Ali, W.</p>
+                <p class="citation-journal">Prostaglandins and Other Lipid Mediators, 153(106536)</p>
+            </div>
+            
+            <div class="citation">
+                <span class="citation-year">2021</span>
+                <span class="citation-number">10</span>
+                <h3 class="citation-title">International Journal of Molecular Sciences</h3>
+                <p class="citation-authors">Caponio, G. R., Wang, D. Q. -H., Ciaula, A. D., Angelis, M. D., Portincasa, P.</p>
+                <p class="citation-journal">International Journal of Molecular Sciences, 22(227), 1-18</p>
+            </div>
+            
         
         <footer>
-            <p>BIOC3601 metabolism</p>
+            <p>miR33 and miR122 as therapeutic targets of atheroscelorosis</p>
         </footer>
     </div>
 </body>
